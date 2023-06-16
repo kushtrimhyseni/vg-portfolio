@@ -23,25 +23,25 @@ const NavBar = () => {
       <div className="hidden lg:flex">
         <Link
           href=""
-          className="uppercase fixed top-4 left-2 text-white text-6xl link"
+          className="uppercase fixed top-4 left-2 text-white text-4xl link"
         >
           Work
         </Link>
         <Link
           href=""
-          className="uppercase fixed top-4 right-2 text-white text-6xl link"
+          className="uppercase fixed top-4 right-2 text-white text-4xl link"
         >
           Connect
         </Link>
         <Link
           href=""
-          className="uppercase fixed bottom-4 left-2 text-white text-6xl link"
+          className="uppercase fixed bottom-4 left-2 text-white text-4xl link"
         >
           Instagram
         </Link>
         <Link
           href=""
-          className="uppercase fixed bottom-4 right-2 text-white text-6xl link"
+          className="uppercase fixed bottom-4 right-2 text-white text-4xl link"
         >
           Twitter
         </Link>

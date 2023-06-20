@@ -3,12 +3,6 @@ const nextConfig = {};
 
 module.exports = {
   images: {
-    remotePatterns: [
-      {
-        protocol: "https",
-        hostname: "carbon-media.accelerator.net",
-        port: "",
-      },
-    ],
+    domains: ["i.ibb.co"],
   },
 };

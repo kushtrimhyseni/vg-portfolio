@@ -6,22 +6,23 @@ import ProjectCard from "@components/ProjectCard";
 export default async function Home() {
   // await prisma.project.create({
   //   data: {
-  //     projectName: "TikTak",
-  //     projectFeaturedImage: "https://i.ibb.co/M8pP7Rw/bora.webp",
+  //     projectName: "Living Space Interior (UE5/Lumen)",
+  //     projectFeaturedImage: "https://i.ibb.co/fC3rFFJ/arch1-1.webp",
+  //     projectSlug: "living-space-interior",
   //     projectDescription:
   //       "Modeling - Texturing - Lighting - Rendering - Post-production",
-  //     projectTechnology: "Autodesk Maya, Cinema 4D, Octane",
+  //     projectTechnology:
+  //       "Autodesk Maya, Quixel Suite, Unreal Engine, Photoshop",
   //     images: {
   //       createMany: {
   //         data: [
-  //           { imageUrl: "https://i.ibb.co/M8pP7Rw/bora.webp" },
-  //           { imageUrl: "https://i.ibb.co/qCbn6bn/lora.webp" },
+  //           { imageUrl: "https://i.ibb.co/fC3rFFJ/arch1-1.webp" },
+  //           { imageUrl: "https://i.ibb.co/KKJ4wt1/arch1-2.webp" },
   //         ],
   //       },
   //     },
   //   },
   // });
-
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-4">
       <ProjectCard />

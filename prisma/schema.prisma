@@ -12,6 +12,7 @@ datasource db {
 
 model Project {
   id                    Int              @id @default(autoincrement())
+  projectSlug           String           @unique
   projectName           String
   projectFeaturedImage  String
   projectDescription    String
